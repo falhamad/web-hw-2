@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILMASHOW</title>
+
+<style>
+.topratedmovies{
+font-size: 18px;
+}
+
+.topratedtvshows{
+  font-size: 18px;
+}
+.mostwatchedmovies{
+  font-size: 18px;
+}
+
+.mostwatchedtvshows{
+  font-size: 18px;
+}
+
+body {
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:cornflowerblue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+div {
+  width: 100%;
+  height: 85px;
+  padding: 0%;
+  background:cornflowerblue;
+  transition: width 2s;
+}
+#div1 {transition-timing-function:ease;}
+div:hover {
+  width: 300px;
+}
+
+  </style>
+
+</head>
+<body>
+  
+  <div class="navbar">
+    <a href="/movies and tv shows/mainpage.html">Home</a>
+    <a href="/movies and tv shows/about.html">About</a>
+    <div class="dropdown">
+      <button class="dropbtn">What to Watch
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://www.imdb.com/chart/moviemeter/?ref_=nv_mv_mpm">Movies</a>
+        <a href="https://www.imdb.com/chart/tvmeter/?ref_=nv_tvv_mptv">TV Shows</a>
+      </div>
+    </div> 
+  </div>
+
+<br>
+  <h1 style="color:white; text-align: center; font-size: 80px; background-color: darkblue; height: 100px; margin-top: 0%; margin-bottom: 0%;">FILMASHOW</h1>
+  
+  <div id="div1">
+
+  <h5 style="text-align: center; color:white; background-color:cornflowerblue;">Your Go-To Website That Includes Your Favorite Movies and Tv Shows</h5>
+</div><br>
+
+  <h2 style="color:maroon;">Top Rated Movies </h2>
+ <span>
+  <ul class="topratedmovies">
+  <li><a href="./topratedmovies/thedarkknight.html">The Dark Knight</a></li>
+  <li><a href="./topratedmovies/starwars.html">Star Wars: The Rise of Skywalker</a></li>
+  <li><a href="./topratedmovies/thelionking.html">The Lion King</a></li>
+</ul>
+<img src="https://images-na.ssl-images-amazon.com/images/I/91ebheNmoUL._RI_.jpg" alt="The Dark Knight" width="150" height="250">
+<img src="https://azadinc.org/wp-content/uploads/2019/12/star-wars-the-rise-of-skywalker-theatrical-poster-1000_ebc74357.jpeg" alt="Star Wars" width="150" height="250">
+<img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/411B2BEA6E667C9262B66D9DCE4BFF528CBA2F674E07BB682560D3F534BD93AB" alt="The Lion King" width="150" height="250">
+</span>
+
+<h2 style="color: maroon;">Top Rated Tv Shows </h2>
+<span>
+ <ul class="topratedtvshows">
+  <li><a href="./topratedtvshows/breakingbad.html">Breaking Bad</a></li>
+  <li><a href="./topratedtvshows/sherlock.html">Sherlock</a></li>
+  <li><a href="./topratedtvshows/friends.html">Friends</a></li>
+</ul>
+<img src="https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg" alt="Breaking Bad" width="150" height="250">
+<img src="https://m.media-amazon.com/images/M/MV5BMWY3NTljMjEtYzRiMi00NWM2LTkzNjItZTVmZjE0MTdjMjJhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTQ4NTc5OTU@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="Sherlock" width="150" height="250">
+<img src="https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" alt="Friends" width="150" height="250">
+</span>
+
+<h2 style="color: maroon;">Most Watched Movies</h2>
+<span>
+  <ul class="mostwatchedmovies">
+    <li><a href="./mostwatchedmovies/titanic.html">Titanic</a></li>
+    <li><a href="./mostwatchedmovies/thewizardofoz.html">The Wizard of Oz</a></li>
+    <li><a href="./mostwatchedmovies/thelordoftherings.html">The Lord of the Rings: The Return of the King</a></li>
+  </ul>
+  <img src="https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="Titanic" width="150" height="250">
+  <img src="https://m.media-amazon.com/images/M/MV5BNjUyMTc4MDExMV5BMl5BanBnXkFtZTgwNDg0NDIwMjE@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="The Wizard of Oz" width="150" height="250">
+  <img src="https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="The Lord of the Rings: The Return of the King" width="150" height="250">
+</span>
+
+<h2 style="color: maroon;">Most Watched Tv Shows</h2>
+<span>
+  <ul class="mostwatchedtvshows">
+    <li><a href="./mostwatchedtvshows/strangerthings.html">Stranger Things</a></li>
+    <li><a href="./mostwatchedtvshows/thewalkingdead.html">The Walking Dead</a></li>
+    <li><a href="mostwatchedtvshows/the100.html">The 100</a></li>
+  </ul>
+  <img src="https://m.media-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_UY209_CR0,0,140,209_AL_.jpg" alt="Stranger Things" width="150" height="250">
+  <img src="https://m.media-amazon.com/images/M/MV5BYTUwOTM3ZGUtMDZiNy00M2I3LWI1ZWEtYzhhNGMyZjI3MjBmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX140_CR0,0,140,209_AL_.jpg" alt="The Walking Dead" width="150" height="250">
+  <img src="https://m.media-amazon.com/images/M/MV5BNjRiYTIzZmUtMTFkNS00ZTM0LWE4ODAtMDliMGE4NzM5ZjVlXkEyXkFqcGdeQXVyNDQ0MTYzMDA@._V1_UY209_CR14,0,140,209_AL_.jpg" alt="The 100" width="150" height="250">
+</span>
+
+</body>
+</html>
